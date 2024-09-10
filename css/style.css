@@ -1,0 +1,69 @@
+@import url("/css/fonts.css");
+@import url("/css/null.css");
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+[class*="__container"] {
+  max-width: 1054px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.wrapper {
+  min-height: 100%;
+}
+.hero {
+  position: relative;
+  color: #fff;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  z-index: 2;
+  opacity: 0.6;
+}
+.hero__container {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 3;
+  align-items: center;
+}
+.hero__header {
+}
+.hero__logo {
+}
+.hero__menu {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+.hero__content {
+}
+.hero__title {
+}
+.hero__lable {
+}
+.hero__button {
+}
+.hero__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  object-position: center;
+}
